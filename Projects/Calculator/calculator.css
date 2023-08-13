@@ -1,0 +1,123 @@
+/* Global reset for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styles */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url('https://images.pexels.com/photos/6929012/pexels-photo-6929012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+  gap: 10vh;
+}
+
+/* Calculator styles */
+.calculator {
+  background: #d4d4d4;
+  padding: 28px;
+  border-radius: 10px;
+  border: 8px double #333;
+  outline-offset: -20px;
+}
+
+.calculator form input {
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.15), 5px 5px 15px rgba(0, 0, 0, 0.07);
+  background: #eee;
+  font-size: 23px;
+  cursor: pointer;
+  margin: 5px;
+  color: #333;
+}
+
+.operator:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.new {
+  pointer-events: none;
+}
+
+form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+form .display input {
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
+  color: #000000;
+}
+
+form input.equal {
+  width: 145px;
+  background-color: #333;
+  color: #101010;
+  cursor: pointer;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 74px;
+  color: #fff;
+  font-weight: bolder;
+  padding: 4px 21px;
+  background-color: rgba(0, 0, 0, 0.7);
+  outline: 3px solid #333;
+  outline-offset: -8px;
+}
+
+/* Additional styles for improved functionality */
+.calculator form div:not(.display) {
+  display: flex;
+}
+
+.calculator form input.operator {
+  font-size: 20px;
+  background-color: #f5f5f5;
+}
+
+.calculator form input.equal {
+  font-size: 30px;
+}
+
+.calculator form input:not(.equal):hover {
+  background-color: #ddd;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .calculator form input {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+
+  .calculator form input.equal {
+    width: 110px;
+    font-size: 26px;
+  }
+
+  .container h1 {
+    font-size: 50px;
+    padding: 2px 14px;
+  }
+}
