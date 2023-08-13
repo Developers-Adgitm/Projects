@@ -420,15 +420,14 @@ body {
     width:60px;
     height:60px;
     z-index:111111;
-    display:none;
     place-items: center;
     border-radius:50%;
     box-shadow:0 0 10px rgba(0, 0, 0,0.5);
 }
 #progress #progress-value{
     display:block;
-    width:calc(100% - 10px);
-    height:calc(100% - 10px);
+    width:calc(100% );
+    height:calc(100% );
     background-color:white;
     border-radius:50%;
     display:grid;
