@@ -38,12 +38,6 @@
 
 --- 
 
-<div align="center">
-
-To clone this repository, Go through [README]() file.
-
-<br>
-
 For Contribution, Go through [CONTRIBUTING]() file.
 
 <br>
