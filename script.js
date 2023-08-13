@@ -1,4 +1,4 @@
-import projects from "../projects";
+import projects from "./projects.js";
 
 const urlParams = new URLSearchParams(window.location.search);
 const searchQuery = urlParams.get('s');

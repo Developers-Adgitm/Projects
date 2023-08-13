@@ -433,8 +433,8 @@ body {
 
 #progress #progress-value{
     display:block;
-    width:calc(100% );
-    height:calc(100% );
+    width: calc(100% - 10px );
+    height: calc(100% - 10px );
     background-color:white;
     border-radius:50%;
     display:grid;
@@ -496,10 +496,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  gap: 4rem;
+  padding: 1rem;
   margin: 0 8rem;
-  position: sticky;
   top:0%;
   z-index: -1;
 
