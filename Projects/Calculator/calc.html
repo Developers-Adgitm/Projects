@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/calculator.css">
+    <link rel="icon" type="image/png" href="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input name="display" class="new" contenteditable="none">
+                </div>
+                <div>
+                    <input type="button" value="AC" onclick="clearDisplay()" class="operator">
+                    <input type="button" value="DE" onclick="deleteLastCharacter()" class="operator">
+                    <input type="button" value="." onclick="appendChar('.')" class="operator">
+                    <input type="button" value="/" onclick="appendChar('/')" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="appendChar('7')" class="operator">
+                    <input type="button" value="8" onclick="appendChar('8')" class="operator">
+                    <input type="button" value="9" onclick="appendChar('9')" class="operator">
+                    <input type="button" value="*" onclick="appendChar('*')" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="appendChar('4')" class="operator">
+                    <input type="button" value="5" onclick="appendChar('5')" class="operator">
+                    <input type="button" value="6" onclick="appendChar('6')" class="operator">
+                    <input type="button" value="-" onclick="appendChar('-')" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="appendChar('1')" class="operator">
+                    <input type="button" value="2" onclick="appendChar('2')" class="operator">
+                    <input type="button" value="3" onclick="appendChar('3')" class="operator">
+                    <input type="button" value="+" onclick="appendChar('+')" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="00" onclick="appendChar('00')" class="operator">
+                    <input type="button" value="0" onclick="appendChar('0')" class="operator">
+                    <input type="button" value="=" onclick="evaluateExpression()" class="equal operator">
+                </div>
+            </form>
+        </div>
+        <h1>CALCULATOR</h1>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
