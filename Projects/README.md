@@ -14,7 +14,7 @@
 
 | No. | 🚀 Project Name | 🔗 Link |
 | --- | --------------- | -------- |
-| 1 | 3D Login Page | [Take Me](./3D%20Login%20Page)
+| 1 | 3D Login Page | [Take Me](./Projects/3DLoginPAge/index.html)
 
 
 
