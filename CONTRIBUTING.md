@@ -13,7 +13,7 @@
 3. Create a Git Repository.
    Run the command ```git init```
 
-4. Fork the [repository]([https://github.com/TusharKesarwani/Front-End-Projects.git](https://github.com/DSC-ADGITM/Projects.git)).
+4. Fork the [repository](https://github.com/DSC-ADGITM/Projects.git).
 
 5. Clone your forked repository of project.
 ```
@@ -27,7 +27,7 @@ cd Front-End-Projects
 
 7. Add a reference(remote) to the original repository.
 ```
-git remote add upstream https://github.com/TusharKesarwani/Front-End-Projects.git
+git remote add upstream https://github.com/DSC-ADGITM/Projects.git
 ```
 
 8. Check the remotes for this repository.
