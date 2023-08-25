@@ -62,25 +62,22 @@ for (let project of filteredProjects) {
 }
 
 // For search query form
-
-if (searchQuery && searchQuery != "")
-    document.getElementById("search").value = searchQuery
-
 const searchForm = document.getElementById("searchForm");
-searchForm.addEventListener("submit",(e) => {
-    const searchText = document.getElementById("search");
+searchForm.addEventListener("submit", (e) => {
     e.preventDefault();
+
+    const searchText = document.getElementById("search").value;
     
-    if (searchText.value == (searchQuery ? searchQuery : "")) {
+    if (searchText === (searchQuery ? searchQuery : "")) {
         return;
     }
 
-    window.location = `/index.html?s=${searchText.value}`;
-})
+    window.location.href = `/index.html?s=${encodeURIComponent(searchText)}`;
+});
 
 // For contributors list
 
-fetch("", {
+fetch("https://api.github.com/repos/DSC-ADGITM/Projects/contributors?per_page=50", {
         headers: {
             'Authorization': ''
         }
