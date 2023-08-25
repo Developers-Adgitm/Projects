@@ -80,14 +80,9 @@ Congratulations🎉, you have made a PR to the Front-End Projects. Wait for your
 
 If you have any doubts please let us know in comments.
 
-<h1 align="center">Communication and Support 💬</h1>
-<p align="center">Join the project's communication channels to interact with other contributors and seek assistance.</br>If you have any questions or need help, don't hesitate to ask in the project's communication channels or comment on the relevant issue.</p>
 
 <h1 align="center">Code of Conduct 😇</h1>
 <p align="center">Please follow our project's code of conduct while contributing.</br>Treat all contributors and users with respect and create a positive and inclusive environment for everyone.</p>
 
 <h1 align="center">License 📄</h1>
 <p align="center">The project is licensed under [MIT]. Make sure to review and comply with the license terms.</br>We hope this guide helps you get started with contributing to our open-source project. Thank you for your contribution!</p>
-
-<h1 align="center">Note from Author ❗</h1>
-<p align="center">While on one hand our repository is a good place for beginners to contribute something useful to open source, on the other hand it is also a good place for experienced people to contribute something useful to open source.</br>We welcome contributions from everyone. However some people tend to spam the repository with irrelevant pull requests and get one PR for SSOC 2.0 and other such open source events. We do not want that to happen.</br>So we have a few guidelines that we would like you to follow. In case we find your PR not relevant or spam, we will mark it as invalid and it will not be counted towards SSOC 2.0.</p>
