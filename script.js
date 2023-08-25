@@ -75,7 +75,8 @@ searchForm.addEventListener("submit",(e) => {
         return;
     }
 
-    window.location = `./index.html?s=${searchText.value}`;
+    window.location = `/index.html?s=${searchText.value}`;
+
 })
 
 // For contributors list
