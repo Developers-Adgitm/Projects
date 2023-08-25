@@ -62,18 +62,21 @@ for (let project of filteredProjects) {
 }
 
 // For search query form
-const searchForm = document.getElementById("searchForm");
-searchForm.addEventListener("submit", (e) => {
-    e.preventDefault();
 
-    const searchText = document.getElementById("search").value;
+if (searchQuery && searchQuery != "")
+    document.getElementById("search").value = searchQuery
+
+const searchForm = document.getElementById("searchForm");
+searchForm.addEventListener("submit",(e) => {
+    const searchText = document.getElementById("search");
+    e.preventDefault();
     
-    if (searchText === (searchQuery ? searchQuery : "")) {
+    if (searchText.value == (searchQuery ? searchQuery : "")) {
         return;
     }
 
-    window.location.href = `/index.html?s=${encodeURIComponent(searchText)}`;
-});
+    window.location = `/index.html?s=${searchText.value}`;
+})
 
 // For contributors list
 
