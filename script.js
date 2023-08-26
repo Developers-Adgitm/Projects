@@ -81,7 +81,7 @@ searchForm.addEventListener("submit",(e) => {
 
 // For contributors list
 
-fetch("https://api.github.com/repos/DSC-ADGITM/Projects/contributors?per_page=50", {
+fetch("https://api.github.com/repos/Developers-Adgitm/Projects/contributors?per_page=50", {
         headers: {
             'Authorization': ''
         }
