@@ -625,6 +625,7 @@ main .left p {
   margin: 0;
   padding: 0;
   border: 0px;
+  text-align: center;
 }
 
 .project-header #search:hover,
@@ -790,7 +791,7 @@ footer a {
     font-size: 0.7rem;
   }
   .github-btn-cta {
-    width: 13rem;
+    width: 14rem;
   }
   .project-section {
     margin: -2.5rem 4rem 4rem 4rem;
@@ -842,7 +843,7 @@ footer a {
     gap: 0rem;
   }
   main .left {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   main .left h1 {
     font-size: 3rem;
@@ -854,8 +855,8 @@ footer a {
     height: 40vh;
   }
   .github-btn-cta {
-    width: 11rem;
-    margin-bottom: 2rem;
+    width: 14rem;
+    margin-bottom: 3rem;
   }
   .project-section {
     margin: -2.5rem 2rem 4rem 2rem;
@@ -927,7 +928,7 @@ footer a {
     height: 30vh;
   }
   .github-btn-cta {
-    width: 11rem;
+    width: 14rem;
     margin-bottom: 2rem;
   }
   .project-section {
