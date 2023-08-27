@@ -472,7 +472,7 @@ nav ul {
 
 nav ul li a {
   color: white;
-  font-size: 0.8rem;
+  font-size: 1rem;
   transition: all ease-in-out 0.2s;
 }
 
@@ -674,7 +674,7 @@ main .left p {
   gap: 1rem;
   color: white;
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .project-info h2 {
@@ -829,6 +829,14 @@ footer a {
     padding: 2rem 4rem;
   }
 }
+@media screen and (max-width: 1110px){
+  nav {
+    justify-content: space-around;
+  }
+  main .right img {
+   height: 42vh;
+  }
+}
 @media screen and (max-width: 768px) {
   nav ul li a {
     font-size: 0.7rem;
@@ -940,7 +948,7 @@ align-items: center;
     margin-top: -2rem;
   }
   .bg-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-left: -1rem;
   }
   .projects {
