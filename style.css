@@ -455,8 +455,8 @@ nav {
   z-index: 100;
 }
 nav:hover{
-  box-shadow: 5px 5px 10px 5px rgba(1, 12, 77, 0.2);
-  transition-duration: .5s;
+box-shadow: 5px 5px 10px 5px rgb(1 6 33 / 53%);
+    transition-duration: .5s;
 
 }
 nav img {
