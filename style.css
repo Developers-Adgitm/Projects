@@ -505,7 +505,7 @@ main {
 
 main .right img {
 animation: imgUp 1s linear infinite alternate;
-    height: 38vh;
+    height: 75vh;
 }
 main .left {
   display: flex;
