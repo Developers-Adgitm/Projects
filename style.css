@@ -829,7 +829,6 @@ footer a {
     padding: 2rem 4rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   nav ul li a {
     font-size: 0.7rem;
@@ -903,6 +902,7 @@ footer a {
   }
 }
 
+/* Mobile devices */
 @media screen and (max-width: 480px) {
   nav ul li a {
     font-size: 0.7rem;
