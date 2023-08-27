@@ -460,7 +460,7 @@ nav:hover{
 
 }
 nav img {
-  margin: 5px;
+  margin: 8px;
   width: 40px;
 }
 
@@ -504,9 +504,8 @@ main {
 }
 
 main .right img {
-  animation: imgUp 1s linear infinite alternate;
-  
-
+animation: imgUp 1s linear infinite alternate;
+    height: 38vh;
 }
 main .left {
   display: flex;
@@ -585,7 +584,7 @@ main .left p {
 .bg-title {
   font-size: 6rem;
   color: rgb(234, 233, 233);
-  margin-left: -6rem;
+  margin-left: 0rem;
 }
 
 @keyframes imgUp {
@@ -779,8 +778,7 @@ footer a {
 
 @media screen and (max-width: 1200px) {
   main {
-    flex-direction: column-reverse;
-    margin: 0 4rem;
+    margin: 4rem;
   }
   main .left {
     margin-top: 4rem;
@@ -792,7 +790,7 @@ footer a {
     font-size: 0.7rem;
   }
   .github-btn-cta {
-    width: 11rem;
+    width: 13rem;
   }
   .project-section {
     margin: -2.5rem 4rem 4rem 4rem;
