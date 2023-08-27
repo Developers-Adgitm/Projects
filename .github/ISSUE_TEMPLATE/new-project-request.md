@@ -1,9 +1,9 @@
 ---
-Name: 'New Project Request'
-About: 'Add any website template you have for this repository'
-Title: ''
-Labels: ''
-Assignees: ''
+name: New Project Request
+about: Add any website template you have for this repository
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
