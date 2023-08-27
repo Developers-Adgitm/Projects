@@ -578,11 +578,11 @@ main .left p {
 .title {
   color: #0d4360;
   font-size: 3rem;
-  margin-top: -6rem;
+  margin-top: -5rem;
 }
 
 .bg-title {
-  font-size: 6rem;
+  font-size: 5rem;
   color: rgb(234, 233, 233);
   margin-left: 0rem;
 }
@@ -801,8 +801,8 @@ footer a {
     margin-top: -5rem;
   }
   .bg-title {
-    font-size: 6rem;
-    margin-left: -4rem;
+    font-size: 4.5rem;
+    margin-left: 0rem;
   }
   .projects {
     margin-top: 1rem;
@@ -839,7 +839,7 @@ footer a {
 }
 @media screen and (max-width: 768px) {
   nav ul li a {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .github-btn {
     margin-top: 1rem;
@@ -903,6 +903,7 @@ footer a {
   }
   .project-header {
 align-items: center;
+gap: 5vh;
     flex-direction: column;
   }
   .project-header button,
@@ -912,9 +913,9 @@ align-items: center;
 }
 
 /* Mobile devices */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 525px) {
   nav ul li a {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .github-btn {
     display: none;
@@ -976,7 +977,7 @@ align-items: center;
     flex-direction: column;
     padding: 2rem 1rem;
   }
-  #progress{
-    display:none
+  #progress {
+    visibility: hidden;
   }
 }
