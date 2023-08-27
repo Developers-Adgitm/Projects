@@ -565,7 +565,7 @@ main .left p {
   /* margin-left : .6rem;
   margin-right : .6rem; */
   /* margin: -2.5rem 8rem 6rem 8rem; */
-  padding: 6rem;
+  padding: 3rem;
   /* margin-bottom:1rem ; */
   z-index: 10000;
 }
@@ -597,7 +597,7 @@ main .left p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 2rem;
+    margin: 2rem 1rem;
 }
 
 .project-header {
@@ -794,7 +794,7 @@ footer a {
     width: 14rem;
   }
   .project-section {
-    margin: -2.5rem 4rem 4rem 4rem;
+    margin: -2.5rem 0rem 4rem 0rem;
   }
   .title {
     font-size: 2.5rem;
@@ -894,6 +894,7 @@ footer a {
     padding: 2rem 2rem;
   }
   .project-header {
+align-items: center;
     flex-direction: column;
   }
   .project-header button,
@@ -916,7 +917,7 @@ footer a {
     gap: 0rem;
   }
   main .left {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   main .left h1 {
     font-size: 2rem;
@@ -929,7 +930,7 @@ footer a {
   }
   .github-btn-cta {
     width: 14rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   .project-section {
     margin: -2.5rem 1rem 4rem 1rem;
@@ -966,5 +967,8 @@ footer a {
   footer {
     flex-direction: column;
     padding: 2rem 1rem;
+  }
+  #progress{
+    display:none
   }
 }
