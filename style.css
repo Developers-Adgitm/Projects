@@ -674,7 +674,8 @@ main .left p {
   gap: 1rem;
   color: white;
   width: 100%;
-  padding: 1.5rem;
+  padding: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .project-info h2 {
@@ -873,8 +874,8 @@ footer a {
     margin-top: -3rem;
   }
   .bg-title {
-    font-size: 4rem;
-    margin-left: -2rem;
+    font-size: 3rem;
+    margin-left: -3rem;
   }
   .projects {
     margin-top: 1rem;
@@ -943,6 +944,7 @@ gap: 5vh;
   }
   .project-section {
     margin: -2.5rem 1rem 4rem 1rem;
+    padding: 1rem;
   }
   .title {
     font-size: 1.5rem;
@@ -950,13 +952,13 @@ gap: 5vh;
   }
   .bg-title {
     font-size: 2.5rem;
-    margin-left: -1rem;
+    margin-left: -7rem;
   }
   .projects {
     margin-top: 1rem;
   }
   .project {
-    width: 90%;
+    width: 100%;
   }
   .project-info h2 {
     font-size: 1rem;
