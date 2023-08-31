@@ -1,0 +1,81 @@
+#VideoContainer {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    margin: 2rem auto;
+}
+
+#VideoContainer img {
+    border-radius: 12px;
+}
+
+#VideoContainer .dataContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+#VideoContainer .title {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    max-width: 570px;
+    white-space: normal;
+    cursor: pointer;
+}
+
+#VideoContainer .views {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(96, 96, 96);
+}
+
+#VideoContainer .author {
+    color: rgb(96, 96, 96);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    display: inline-block;
+    overflow-wrap: normal;
+    word-break: break-word;
+    unicode-bidi: isolate;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+}
+
+#VideoContainer .description {
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-size-adjust: 100%;
+    white-space: normal;
+}
+
+#VideoContainer .thumbnail {
+    position: relative;
+}
+
+#VideoContainer .time {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+    letter-spacing: 0.35px;
+    line-height: 12px;
+    margin: 4px;
+    padding: 3px 4px;
+    position: absolute;
+    right: 3px;
+    bottom: 7px;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+
+}
