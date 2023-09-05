@@ -18,7 +18,7 @@ const projects = [
     {
         "title":"Twitter Sentiment Analysis",
         "tags":["Python"],
-        "img":"https://picsum.photos/",
+        "img":"https://editor.analyticsvidhya.com/uploads/50131cover.jpg",
         "description":"This is a Twitter Sentiment Analysis made using Python.",
         "github-link":"https://github.com/Developers-Adgitm/Projects/blob/main/Projects/Twitter_Sentiment_Analysis.ipynb",
         "project-link":"https://github.com/Developers-Adgitm/Projects/blob/main/Projects/Twitter_Sentiment_Analysis.ipynb"
