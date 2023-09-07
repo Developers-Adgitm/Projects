@@ -1,0 +1,7 @@
+The dataset has been split into three main groups: positive, negative, and anchor images.
+
+The positive and anchor images have been personally created.
+
+The negative images can be found at : [Labeled Faces in the Wild Home
+](http://vis-www.cs.umass.edu/lfw/)
+
