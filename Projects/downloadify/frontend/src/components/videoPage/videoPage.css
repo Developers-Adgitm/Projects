@@ -1,0 +1,27 @@
+.videoDetailsContainer {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* background-color: #9DC08B; */
+}
+
+.middleContainer {
+    width: fit-content;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.qualitySelectorContainer{
+    width: 100%;
+    flex-grow: 1;
+    /* background-color: #609966; */
+}
+
+.qualitySelectorContentPane {
+    margin: 10px 2%;
+    display: flex;
+    flex-direction: column;
+}

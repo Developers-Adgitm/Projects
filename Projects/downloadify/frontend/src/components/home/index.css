@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.logo {
+    width: 200px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.header {
+    height: 65rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/homePage/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+}
+
+nav h2 {
+    color: #E92A4C;
+    font-weight: 500;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.header-btn {
+    text-decoration: none !important;
+    float: right;
+    margin-top: 30px;
+    color: #fff !important;
+    background: #107afd;
+    padding: 7px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.fa-solid {
+    margin: 0 8px;
+}
+
+.header-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.header-content h3 {
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.email-signup {
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.email-signup input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.email-signup button {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 20px 30px;
+}
+
+/* ------------------------------downloading steps----------------------------- */
+.features {
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.features h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.steps-parra {
+    color: #000;
+}
+
+@media only screen and (max-width: 700px) {
+    .logo {
+        /* position: fixed; */
+        width: 150px;
+    }
+
+    .header-btn {
+        display: flex;
+        padding: 8px;
+    }
+
+    .header-content h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .email-signup button {
+        padding: 13px 9px;
+    }
+
+    .email-signup input {
+        padding: 0 30px;
+    }
+
+    .steps-parra {
+        font-size: 18px;
+    }
+
+    .header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/homePage/phone-background.jpg);
+        height: 60rem;
+
+    }
+}
