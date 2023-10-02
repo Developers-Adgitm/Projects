@@ -5,7 +5,7 @@ const projects = [
         "img":"img/projects/3D form.png",
         "description":"This is a 3D SignUp or SignIn page made using HTML, CSS and JavaScript.",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/3D%20Login%20PAge",
-        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Calculator"
+        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/3D%20Login%20PAge"
     },    
     {
         "title":"Calculator",
