@@ -17,9 +17,7 @@
 | 1 | 3D Login Page | [Take Me](./3D%20Login%20PAge)
 | 2 | Calculator | [Take Me](./Calculator)
 | 3 | Twitter Sentiment Analysis | [Take Me](./Twitter_Sentiment_Analysis.ipynb)
-| 4 | Downloadify | [Take Me](./downloadify)
-| 5 | ifeelgreen | [Take Me](./ifeelgreen.github.io-main)
-| 6 | Image Classification | [Take Me](./AIML-DATA-SCIENCE-PROJECTS)
+
 </div>
 
 --- 
