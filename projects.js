@@ -34,15 +34,15 @@ const projects = [
     {
         "title":"Downloadify",
         "tags":["React", "Flask"],
-        "img":"https://downloadify.vercel.app/",
-        "description":"This is a Twitter Sentiment Analysis made using Python.",
+        "img":"https://www.diaryofanaspiringloser.com/wp-content/uploads/2023/06/Youtube-downloader.jpg",
+        "description":"This is a Youtube Video Downloader.",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/downloadify",
         "project-link":"https://downloadify.vercel.app/"
     },
     {
         "title":"ifeelgreen",
         "tags":["HTML","CSS","JavaScript"],
-        "img":"https://editor.analyticsvidhya.com/uploads/50131cover.jpg",
+        "img":"https://thebluegreenjourney.com/media/1063/shutterstock_248735269.jpg?width=600&mode=max",
         "description":"This helps you get started with organic lifestyle",
         "github-link":"https://github.com/Developers-Adgitm/Projects/blob/main/Projects/Twitter_Sentiment_Analysis.ipynb",
         "project-link":"https://sl1ck0.github.io/ifeelgreen.github.io/"
