@@ -19,7 +19,9 @@
 | 3 | Twitter Sentiment Analysis | [Take Me](./Twitter_Sentiment_Analysis.ipynb)
 | 4 | Downloadify | [Take Me](./downloadify)
 | 5 | ifeelgreen | [Take Me](./ifeelgreen.github.io-main)
-| 6 | Image Classification | [Take Me](./AIML-DATA-SCIENCE-PROJECTS)
+| 6 | Image Classification & Facial-Verification | [Take Me](./AIML-DATA-SCIENCE-PROJECTS)
+| 7 | Scientific Calculator | [Take Me](./Scientific-Calculator)
+| 8 | SoulBound_Confession | [Take Me](./SoulBound_Confession)
 </div>
 
 --- 
