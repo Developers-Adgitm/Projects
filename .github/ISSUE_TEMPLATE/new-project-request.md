@@ -12,13 +12,10 @@ A clear and concise description of the project you are going to add to this repo
 
 ## Issue Type:
 
-- [ ] Bug Report
 - [ ] Feature Request
 - [ ] Documentation
 - [ ] New Project
 
-## **Additional context**
-Add any other context or screenshots about the project here.
 
 ## **Screenshots**
 
