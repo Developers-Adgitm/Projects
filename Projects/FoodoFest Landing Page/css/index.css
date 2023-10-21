@@ -1,0 +1,281 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar : Logo Image */
+
+#logo {
+    margin: 4px 25px;
+}
+
+#logo img {
+    height: 65px;
+    width: 65px;
+}
+
+/* Navigation Bar : List Styling */
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 3px 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 14px;
+}
+
+/* Home Section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 55px 150px 135px 150px;               
+    height: 250px;
+}
+
+#home::before {
+    content: "";
+    background: url(../Images/bg4.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 73%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home p{
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+#home h1{
+    font-family: 'Bree Serif', serif;
+    color: white;
+}
+
+/* Services Section */
+
+#services{
+    display: flex;
+    margin: 34px;
+}
+
+#services .box{
+    border: 0px;
+    padding: 25px;
+    margin: 0px 13px;
+    height: 250px;
+    width: 470px;
+    border-radius: 24px;
+    background-color: rgb(230,219,219);
+    cursor: pointer;
+}
+
+#services .box:hover{
+    transform: scale(1.06);
+}
+
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    font-size: 0.8rem;
+    padding: 4px;
+}
+
+/* Connect Section */
+
+#connect-section::before{
+    content: "";
+    position: absolute;
+    background: url(../Images/b1.avif) no-repeat center center/cover;
+    width: 100%;
+    height: 83%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#download{
+    width: 800px;
+    margin: auto;
+}
+
+#block{
+    display: flex;
+}
+
+
+#download #dld2{
+    position: relative;
+    left: 220px;
+    width: 325px;
+    height: 200px;
+    cursor: pointer;
+    z-index: -1;        /* comment if you want the hovering css to apply. And uncomment if you don't want the download button to overlap the sticky navbar. */
+    
+}
+
+#download #dld2:hover{
+    transform: scale(1.1);
+}
+
+#connect{
+    margin: auto;
+    width: 600px;
+}
+
+#connect img{
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#connect img:hover{
+    transform: scale(1.08);
+}
+
+/* Contact Section */
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 105%;
+    background: url(../Images/a2.png) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+#contact-box form{
+    width: 35%;
+}
+
+#contact-box label{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#contact-box input, #contact-box textarea{
+    font-family: 'Poppins', sans-serif;
+    border: 0px;
+    background-color: rgb(239, 229, 229);
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1.2rem;
+}
+
+/* Copyright Footer */
+
+footer div{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+/* footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+} */
+
+/* Utility Classes */
+
+.h-primary{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    padding: 12px;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.1rem;
+    padding: 7px 40px;
+    margin: 20px;
+    border: 0.2px solid white;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+
+.btn:hover{
+    transform: scale(1.07);
+}
+
