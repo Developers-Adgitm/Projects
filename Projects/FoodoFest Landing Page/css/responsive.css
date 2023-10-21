@@ -1,0 +1,81 @@
+/* Navigation Bar */
+
+#navbar{
+    flex-direction: column;
+    width: 1500px;
+}
+
+/* Home Section */
+
+#home{
+    height: 340px;
+    width: 400px;
+    /* margin: auto; */
+}
+
+#home::before{
+    width: 1500px;
+    height: 600px;
+}
+
+#home .h-primary{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+#home p{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+#home .btn{
+    position: relative;
+    left: 400px;
+    
+}
+
+/* Services section */
+
+#services-container .h-primary{
+    width: 1450px;
+}
+
+#services{
+    flex-direction: column;
+    width: 1400px;
+    align-items: center;
+}
+
+#services .box{
+    margin-bottom: 25px;
+}
+
+/* Connect section */
+
+#connect-section{
+    width: 1500px;
+}
+
+#connect-section::before{
+    width: 1500px;
+}
+
+/* Contact Us Section */
+
+#contact::before{
+    width: 1500px;
+}
+
+#contact-box{
+    width: 1450px;
+}
+
+#contact .h-primary{
+    width: 1450px;
+}
+
+#ftr{
+    width: 1500px;
+}
