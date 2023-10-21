@@ -17,12 +17,12 @@
 
 5. Clone your forked repository of project.
 ```
-git clone https://github.com/<your-github-username>/Front-End-Projects.git
+git clone https://github.com/<your-github-username>/Projects.git
 ```
   
 6. Navigate to the project directory.
 ```
-cd Front-End-Projects
+cd Projects
 ```
 
 7. Add a reference(remote) to the original repository.
