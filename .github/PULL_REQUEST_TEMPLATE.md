@@ -11,8 +11,7 @@ Please include a summary of the change. Please also include relevant motivation 
 
 ## Type of change
 
-<!----Please delete options that are not relevant.And in order to tick the check box just add x inside them for example [x] like this----->
-- [ ] Bug fix (non-breaking change which fixes an issue)
+<!----Please delete options that are not relevant And in order to tick the check box just add ✅ inside them for example [✅] like this----->
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
@@ -31,3 +30,4 @@ Please include a summary of the change. Please also include relevant motivation 
 
 
 # ATTACH SCREEN-SHOTS / DEPLOYMENT LINK
+- If applicable, add screenshots/deploying link.
