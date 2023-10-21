@@ -1,0 +1,22 @@
+*{
+    background: rgb(255, 255, 255);
+}
+.rolling{
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+@media(max-width:600px){
+    .forall{
+        display: flex;
+        flex-direction: ro;
+    }
+    .content{
+        position: absolute;
+        top: 43%;
+    }
+    .rolling{
+        margin-top: 30px;
+        width: 400px;
+    }
+}
