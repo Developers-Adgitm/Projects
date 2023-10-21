@@ -10,7 +10,7 @@ const projects = [
     {
         "title":"Calculator",
         "tags":["HTML","CSS","JavaScript"],
-        "img":"img/projects/calculator.png"",
+        "img":"img/projects/calculator.png",
         "description":"This is a Calculator made using HTML, CSS and JavaScript.",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Calculator",
         "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Calculator"
