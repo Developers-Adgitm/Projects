@@ -10,7 +10,7 @@ const projects = [
     {
         "title":"Calculator",
         "tags":["HTML","CSS","JavaScript"],
-        "img":"img/projects/Calculator.png",
+        "img":"img/projects/calculator.png"",
         "description":"This is a Calculator made using HTML, CSS and JavaScript.",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Calculator",
         "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Calculator"
@@ -47,6 +47,23 @@ const projects = [
         "github-link":"https://github.com/Developers-Adgitm/Projects/blob/main/Projects/Twitter_Sentiment_Analysis.ipynb",
         "project-link":"https://sl1ck0.github.io/ifeelgreen.github.io/"
     },
+    {
+        "title":"Scientic Calculator",
+        "tags":["Python"],
+        "img":"img/projects/calculator_img.png",
+        "description":"This is a scientific calculator built in python",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Scientific%20Calculator",
+        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Scientific%20Calculator"
+    },
+    {
+        "title":"SoulBound Confession",
+        "tags":["HTML","CSS","JavaScript"],
+        "img":"img/projects/SB.png",
+        "description":"This helps regarding the mental health initiative to provide aid to the people",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/SoulBound_Confession",
+        "project-link":"https://soulboundconfessions.netlify.app/"
+    },
+    
     
 ]
 
