@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sMovies | Watch your favourite movies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eba3f591af.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">sMovies</a>
+        <ul class="nav">
+            <li><a href="#"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Horror</a></li>
+            <li><a href="#">Comedy</a></li>
+            <li><a href="#">Romance</a></li>
+        </ul>
+        <div class="searchbar">
+            <input type="text" class="news-input" id="search-input" placeholder="Search">
+            <a href="#">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+            </a>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="content a2 active">
+            <img src="Images/a2.png" alt="" class="movie_title">
+
+            <h4>
+                <span>2023</span><span><i>12+</i></span>
+                <span>2h 15min</span><span>Fantasy/Musical</span>
+            </h4>
+
+            <p>The youngest of King Triton's daughters, Ariel is a beautiful and spirited young mermaid with a thirst for adventure. Longing to find out more about the world beyond the sea, Ariel visits the surface and falls for the dashing Prince Eric. Following her heart, she makes a deal with the evil sea witch, Ursula, to experience life on land.</p>
+
+            <div class="button">
+                <a href="#"><i class="fa-solid fa-play" style="color: #ffffff;"></i>Watch</a>
+                <a href="#"><i class="fa-solid fa-plus" style="color: #ffffff;"></i>My List</a>
+            </div>
+        </div>
+        <div class="content b2">
+            <img src="Images/b2.png" alt="" class="movie_title">
+
+            <h4>
+                <span>2023</span><span><i>15+</i></span>
+                <span>1h 33min</span><span>Sci-Fi/Action</span>
+            </h4>
+
+            <p>A spaceship crash lands on prehistoric Earth, leaving only two survivors. Soon, they must survive against the hostile terrain and vicious creatures.</p>
+
+            <div class="button">
+                <a href="#"><i class="fa-solid fa-play" style="color: #ffffff;"></i>Watch</a>
+                <a href="#"><i class="fa-solid fa-plus" style="color: #ffffff;"></i>My List</a>
+            </div>
+        </div>
+        <div class="content c2">
+            <img src="Images/c2.png" alt="" class="movie_title">
+
+            <h4>
+                <span>2023</span><span><i>15+</i></span>
+                <span>1h 40min</span><span>Horror</span>
+            </h4>
+
+            <p>Six people enter an isolation tank designed to mimic the long trip to Mars.</p>
+
+            <div class="button">
+                <a href="#"><i class="fa-solid fa-play" style="color: #ffffff;"></i>Watch</a>
+                <a href="#"><i class="fa-solid fa-plus" style="color: #ffffff;"></i>My List</a>
+            </div>
+        </div>
+        <div class="content d2">
+            <img src="Images/d2.png" alt="" class="movie_title">
+
+            <h4>
+                <span>2023</span><span><i>15+</i></span>
+                <span>2h 3min</span><span>War/Action</span>
+            </h4>
+
+            <p>During the war in Afghanistan, a local interpreter risks his own life to carry an injured sergeant across miles of gruelling terrain.</p>
+
+            <div class="button">
+                <a href="#"><i class="fa-solid fa-play" style="color: #ffffff;"></i>Watch</a>
+                <a href="#"><i class="fa-solid fa-plus" style="color: #ffffff;"></i>My List</a>
+            </div>
+        </div>
+        <div class="content e2">
+            <img src="Images/e2.png" alt="" class="movie_title">
+
+            <h4>
+                <span>2023</span><span><i>15+</i></span>
+                <span>1h 40min</span><span>Horror/Thriller</span>
+            </h4>
+
+            <p>Oilman Paul Sturges' idyllic family vacation turns into a living nightmare when they encounter a gigantic megalodon shark that will stop at nothing to protect its territory. Stranded and under constant attack, Paul and his family must somehow find a way to get back to shore alive before it strikes again.</p>
+
+            <div class="button">
+                <a href="#"><i class="fa-solid fa-play" style="color: #ffffff;"></i>Watch</a>
+                <a href="#"><i class="fa-solid fa-plus" style="color: #ffffff;"></i>My List</a>
+            </div>
+        </div>
+         
+
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item" onclick="changeBg('a1.jpeg','a2');">
+                    <img src="Images/a3.jpeg" alt="">
+                </div>
+                <div class="carousel-item" onclick="changeBg('b1.jpeg','b2');">
+                    <img src="Images/b3.jpg" alt="">
+                </div>
+                <div class="carousel-item" onclick="changeBg('c1.jpeg','c2');">
+                    <img src="Images/c3.jpeg" alt="">
+                </div>
+                <div class="carousel-item" onclick="changeBg('d1.jpeg','d2');">
+                    <img src="Images/d3.jpg" alt="">
+                </div>
+                <div class="carousel-item" onclick="changeBg('e1.jpeg','e2');">
+                    <img src="Images/e3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="play"><i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>Watch Trailer</a>
+
+        <ul class="sci">
+            <li><a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a></li>
+        </ul>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+</html>
