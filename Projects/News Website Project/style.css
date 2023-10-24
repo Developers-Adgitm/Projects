@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.navbar {
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.my-logo img {
+    width: 200px;
+    filter: invert(100%);
+}
+
+.center ul {
+    gap: 40px;
+}
+
+.item a {
+    color: white;
+    font-weight: bold;
+}
+
+.item a:hover {
+    color: rgb(171, 158, 158);
+}
+
+.item .active {
+    color: rgb(171, 158, 158);
+}
+
+/* Search Bar */
+
+.searchbar img {
+    width: 80px;
+}
+
+.searchbar {
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+}
+
+.searchbar:hover input {
+    width: 250px;
+}
+
+.searchbar input {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.searchbar a .fa-solid {
+    font-size: 18px;
+}
+
+/* Home Section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 55px 150px 135px 150px;               
+    height: 250px;
+    margin-top: 150px;
+}
+
+#home::before {
+    content: "";
+    background: url(../Images/bg4.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 73%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+#home h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+
+/* Main Content */
+
+main{
+    padding-block: 20px;
+    margin-top: 110px;
+}
+
+.cards-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+}
+
+.card {
+    background-color: #fff;
+    width: 350px;
+    min-height: 400px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+    background-color: rgb(234, 216, 239);
+    transform: translateY(-7px);
+}
+
+.card-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.news-source {
+    margin-block: 12px;
+}
+
+/* Connect Section */
+
+#connect-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#connect-section::before{
+    content: "";
+    position: absolute;
+    background: url(../Images/b4.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 30%;
+    z-index: -1;
+    /* opacity: 0.9; */
+}
+
+#download{
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+}
+
+
+#download #dld2{
+    margin-top: 10px;
+    width: 180px;
+    /* z-index: -1;        comment if you want the hovering css to apply. And uncomment if you don't want the download button to overlap the sticky navbar.   */
+}
+
+#download #dld2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#connect{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+#connect i{
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+#connect i:hover{
+    transform: scale(1.08);
+}
+
+/* Footer Copyright */
+
+footer div{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin-top: 27px;
+}
+
+
+/* Utility Classes */
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    padding: 7px 40px;
+    margin: 20px;
+    border: 0.2px solid white;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+
+.btn:hover{
+    transform: scale(1.07);
+}
+
+.h-primary{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    padding-right: 12px;
+    /* text-align: center; */
+}
+
+.center {
+    text-align: center;
+}

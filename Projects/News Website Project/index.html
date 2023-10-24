@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Hind&family=Poppins&family=Roboto:wght@300&family=Sigmar&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/eba3f591af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar container flex">
+            <a href="#" class="my-logo">
+                <img src="Images/logo.png" alt="Newsilia">
+            </a>
+
+            <div class="center">
+                <ul class="flex">
+                    <li class="item"><a href="#" id="ipl" onclick="onNavItemClick('ipl')">Cricket</a></li>
+                    <li class="item"><a href="#" id="politics" onclick="onNavItemClick('politics')">Politics</a></li>
+                    <li class="item"><a href="#" id="finance" onclick="onNavItemClick('finance')">Finance</a></li>
+                    <li class="item"><a href="#" id="technology" onclick="onNavItemClick('technology')">Technology</a></li>
+                </ul>
+            </div>
+            <div class="searchbar">
+                <input type="text" class="news-input" id="search-input" placeholder="e.g. Science">
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to Newsilia!</h1>
+        <br>
+        <p>Where we present to you Facts, not Opinions. Get the facts, straight from the source. The Truth Shall Make You Free...
+        </p>
+        <p>We’re here for you – 24 hours a day, 7 days a week.</p>
+        <button class="btn">Check Out Now</button>
+    </section>
+
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+    </main>
+
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-img" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 class="news-title" id="news-title">This is the Title</h3>
+                <h5 class="news-source" id="news-source">End Gadget 26/08/2023</h5>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil laborum consequatur dolore laboriosam explicabo dolores, accusantium earum expedita? Nostrum quibusdam dolore id iure consectetur!</p>
+            </div>
+        </div>
+    </template>
+
+    <section id="connect-section">
+        <div id="download">
+            <h1 class="h-primary">Download App</h1>
+            <img id="dld2" src="/Images/dld2.png" alt="">
+        </div>
+        <br>
+        <div id="connect">
+            <h1 class="h-primary">Get in Touch</h1>
+            <i class="fa-brands fa-facebook fa-3x" style="color: #000000;"></i>
+            <i class="fa-brands fa-linkedin fa-3x" style="color: #000000;"></i>
+            <i class="fa-brands fa-instagram fa-3x" style="color: #000000;"></i>
+            <i class="fa-brands fa-twitter fa-3x" style="color: #000000;"></i>
+            <i class="fa-brands fa-telegram fa-3x" style="color: #000000;"></i>
+        </div>
+    </section>
+
+    <footer id="ftr">
+        <div class="center">
+            Copyright &copy; www.newsilia.com. All rights reserved! 
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
