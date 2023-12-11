@@ -34,7 +34,7 @@ const projects = [
     {
         "title":"Downloadify",
         "tags":["React", "Flask"],
-        "img":"https://www.diaryofanaspiringloser.com/wp-content/uploads/2023/06/Youtube-downloader.jpg",
+        "img":"https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description":"This is a Youtube Video Downloader.",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/downloadify",
         "project-link":"https://downloadify.vercel.app/"
@@ -65,7 +65,7 @@ const projects = [
     },
     {
         "title":"Dice game",
-        "tags":["React Js"],
+        "tags":["React + Vite"],
         "img":"https://images.unsplash.com/photo-1522069213448-443a614da9b6?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description":"Dice Game using React Js",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Dicegame",
@@ -79,7 +79,7 @@ const projects = [
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Ecommerce_Backend_Node",
         "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Ecommerce_Backend_Node"
     },
-        {
+    {
         "title":"FoodoFest",
         "tags":["HTML","CSS","JavaScript"],
         "img":"https://images.unsplash.com/photo-1483137140003-ae073b395549?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -87,8 +87,30 @@ const projects = [
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/FoodoFest%20Landing%20Page",
         "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/FoodoFest%20Landing%20Page"
     },
-    
-    
+    {
+        "title":"News Website",
+        "tags":["HTML","CSS","JavaScript"],
+        "img":"https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description":"News Website",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/News%20Website%20Project",
+        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/News%20Website%20Project"
+    },
+        {
+        "title":"Tic-Tac-Toe",
+        "tags":["React + Vite"],
+        "img":"https://www.coolmathgames.com/sites/default/files/TicTacToe_OG-logo.jpg",
+        "description":"Tic Tac Toe Game",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Tic-Tac-Toe",
+        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Tic-Tac-Toe"
+    },
+    {
+        "title":"Amazon Clone",
+        "tags":["HTML","CSS","JavaScript"],
+        "img":"https://i.stack.imgur.com/gNTbn.jpg",
+        "description":"Amazon Clone",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/amazon",
+        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/amazon"
+    },
 ]
 
 export default projects;
