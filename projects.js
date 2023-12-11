@@ -63,6 +63,30 @@ const projects = [
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/SoulBound_Confession",
         "project-link":"https://soulboundconfessions.netlify.app/"
     },
+    {
+        "title":"Dice game",
+        "tags":["React Js"],
+        "img":"https://unsplash.com/photos/two-red-and-white-dices-a6N685qLsHQ",
+        "description":"Dice Game using React Js",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Dicegame",
+        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Dicegame"
+    },
+    {
+        "title":"Ecommerce Backend",
+        "tags":["MongoDB, Express.js, React.js, Node.js"],
+        "img":"https://unsplash.com/photos/person-holding-black-samsung-android-smartphone-pwxESDWRwDE",
+        "description":"This API provides the backend functionality for an e-commerce website, including user authentication, product management, order processing, and more",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Ecommerce_Backend_Node",
+        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Ecommerce_Backend_Node"
+    },
+        {
+        "title":"FoodoFest",
+        "tags":["HTML","CSS","JavaScript",
+        "img":"https://unsplash.com/photos/green-vegetable-beside-ceramic-bowl-kXQ3J7_2fpc",
+        "description":"Food Ordering Landing Page",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/FoodoFest%20Landing%20Page",
+        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/FoodoFest%20Landing%20Page"
+    },
     
     
 ]
