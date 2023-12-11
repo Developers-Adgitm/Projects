@@ -81,7 +81,7 @@ const projects = [
     },
         {
         "title":"FoodoFest",
-        "tags":["HTML","CSS","JavaScript",
+        "tags":["HTML","CSS","JavaScript"],
         "img":"https://unsplash.com/photos/green-vegetable-beside-ceramic-bowl-kXQ3J7_2fpc",
         "description":"Food Ordering Landing Page",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/FoodoFest%20Landing%20Page",
