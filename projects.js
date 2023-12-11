@@ -73,7 +73,7 @@ const projects = [
     },
     {
         "title":"Ecommerce Backend",
-        "tags":["MongoDB, Express.js, React.js, Node.js"],
+        "tags":["MongoDB", "Express.js", "React.js", "Node.js"],
         "img":"https://images.unsplash.com/photo-1592503254549-d83d24a4dfab?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description":"This API provides the backend functionality for an e-commerce website, including user authentication, product management, order processing, and more",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Ecommerce_Backend_Node",
