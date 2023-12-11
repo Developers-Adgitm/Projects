@@ -66,7 +66,7 @@ const projects = [
     {
         "title":"Dice game",
         "tags":["React Js"],
-        "img":"https://unsplash.com/photos/two-red-and-white-dices-a6N685qLsHQ",
+        "img":"https://images.unsplash.com/photo-1522069213448-443a614da9b6?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description":"Dice Game using React Js",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Dicegame",
         "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Dicegame"
@@ -74,7 +74,7 @@ const projects = [
     {
         "title":"Ecommerce Backend",
         "tags":["MongoDB, Express.js, React.js, Node.js"],
-        "img":"https://unsplash.com/photos/person-holding-black-samsung-android-smartphone-pwxESDWRwDE",
+        "img":"https://images.unsplash.com/photo-1592503254549-d83d24a4dfab?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description":"This API provides the backend functionality for an e-commerce website, including user authentication, product management, order processing, and more",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Ecommerce_Backend_Node",
         "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/Ecommerce_Backend_Node"
@@ -82,7 +82,7 @@ const projects = [
         {
         "title":"FoodoFest",
         "tags":["HTML","CSS","JavaScript"],
-        "img":"https://unsplash.com/photos/green-vegetable-beside-ceramic-bowl-kXQ3J7_2fpc",
+        "img":"https://images.unsplash.com/photo-1483137140003-ae073b395549?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description":"Food Ordering Landing Page",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/FoodoFest%20Landing%20Page",
         "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/FoodoFest%20Landing%20Page"
