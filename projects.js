@@ -105,11 +105,43 @@ const projects = [
     },
     {
         "title":"Amazon Clone",
-        "tags":["HTML","CSS","JavaScript"],
+        "tags":["HTML","CSS"],
         "img":"https://i.stack.imgur.com/gNTbn.jpg",
         "description":"Amazon Clone",
         "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/amazon",
         "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/amazon"
+    },
+        {
+        "title":"Book store",
+        "tags":["HTML","CSS"],
+        "img":"https://images.unsplash.com/photo-1569728723358-d1a317aa7fba?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description":"Book store",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/book%20store",
+        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/book%20store"
+    },
+            {
+        "title":"sMovies",
+        "tags":["HTML","CSS", "JavaScript"],
+        "img":"https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=2059&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description":"Movies Landing Page",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/sMovies",
+        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/sMovies"
+    },
+    {
+        "title":"to-do-list",
+        "tags":["HTML","CSS", "JavaScript"],
+        "img":"https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description":"Todo List",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/to-do-list",
+        "project-link":"https://github.com/Developers-Adgitm/Projects/tree/main/Projects/to-do-list"
+    },
+        {
+        "title":"Fidget spinner",
+        "tags":["HTML","CSS", "JavaScript"],
+        "img":"https://images.unsplash.com/photo-1533928298208-27ff66555d8d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description":"Fidget spinner",
+        "github-link":"https://github.com/Developers-Adgitm/Projects/blob/main/Projects/fidget%20spinner.ipynb",
+        "project-link":"https://github.com/Developers-Adgitm/Projects/blob/main/Projects/fidget%20spinner.ipynbt"
     },
 ]
 
