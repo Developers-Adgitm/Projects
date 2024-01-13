@@ -30,6 +30,7 @@
 }
 
 .calculator form input {
+  
   border: 0;
   outline: 0;
   width: 60px;
@@ -41,6 +42,24 @@
   cursor: pointer;
   margin: 5px;
   color: #333;
+}
+
+.calculator form input.equal {
+ 
+  width: 145px;
+  background-color: #333;
+  color: #101010;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+
+.operator:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.new {
+  pointer-events: none;
 }
 
 .operator:hover {
